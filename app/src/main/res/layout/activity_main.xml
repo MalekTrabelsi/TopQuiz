@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.trabelsi.malek.topquiz.controller.MainActivity">
+
+    <TextView
+        android:id="@+id/activity_main_greeting_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bonjour ! Quel est votre prénom ?"
+        android:gravity="center"
+        android:background="#62dede"
+        android:layout_marginTop="30dp"
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="serif"/>
+
+
+    <EditText
+        android:id="@+id/activity_main_name_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Tapez Votre Prénom S'il vous plaît"/>
+
+    <Button
+        android:id="@+id/activity_main_play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="120dp"
+        android:background="#24c19c"
+        android:padding="30dp"
+        android:text="Let's Play !"/>
+
+</LinearLayout>
